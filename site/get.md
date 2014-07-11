@@ -1,34 +1,24 @@
 # 用户信息
 
-    GET site/get
-
-***
+    GET /site/get/
 
 ## 说明
 获取和某人/小站的关系以及用户信息
 
-***
-
 ## URL
-http://tuchong.com/api/site/get
-
-***
+http://tuchong.com/api/site/get/
 
 ## 是否需要登陆
 是
 
-***
-
 ## 参数
 
-- **site_id** — 必须。用户id或小站id。
+- `site_id` — (必须)。用户id或小站id。
 
-***
-
-## 例子
+### 例子
 **请求**
 
-    api/site/get?site_id=443539
+    GET http://tuchong.com/api/site/get/?site_id=443539
 
 **返回**
 ``` json
