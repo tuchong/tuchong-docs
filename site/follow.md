@@ -1,4 +1,4 @@
-# 用户信息
+# 关注站点
 
     POST /site/follow/
 
