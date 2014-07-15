@@ -24,7 +24,7 @@ http://tuchong.com/api/post/update/
     POST http://tuchong.com/api/post/update/
 **post数据**
 
-    post_id=6483327&content=thisiscontent&tags=tag1,tag4
+    post_id=6483327&content=thisiscontent&tags=tag1%2Ctag2
 
 **返回**
 ``` json
