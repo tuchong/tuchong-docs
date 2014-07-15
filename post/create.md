@@ -31,9 +31,18 @@ http://tuchong.com/api/post/create/
 **请求**
 
     POST http://tuchong.com/api/post/create/
-**post数据**
+**post data source**
 
     site_id=443539&type=text&title=textTitle&tags=tag1%2Ctag2&images%5B7162222%5D%5Btitle%5D=imgTitle&images%5B7162222%5D%5Bdescription%5D=imgDescription
+
+**post data parsed**
+
+    site_id:443539
+    type:text
+    title:textTitle
+    tags:tag1,tag2
+    images[7162222][title]:imgTitle
+    images[7162222][description]:imgDescription
 
 **返回**
 ``` json
