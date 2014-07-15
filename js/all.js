@@ -28,11 +28,13 @@ NAME.prototype.navigate = function(pathname){
 	}
 	
 	var main = $('main');
-	main.addClass('loading');
 	
 	$.ajax({
 		url  : url,
 	    type: 'GET',
+	    beforeSend : function(){
+	    	main.addClass('loading');
+	    },
 		complete: function(){
 			main.removeClass('loading');
 		},
