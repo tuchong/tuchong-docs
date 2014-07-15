@@ -56,6 +56,10 @@ body {
   position: relative;
   width: 550px;
   margin: 40px 0 50px 260px;
+  transition:opacity .15s linear;
+}
+#main.loading {
+  opacity:.4;
 }
 img#logo {
   width: 450px;

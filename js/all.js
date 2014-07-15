@@ -27,13 +27,16 @@ NAME.prototype.navigate = function(pathname){
 		url += this.defaultIndex;
 	}
 	
+	var main = $('main');
+	main.addClass('loading');
+	
 	$.ajax({
 		url  : url,
 	    type: 'GET',
-		complete: function(){},
+		complete: function(){
+			main.removeClass('loading');
+		},
 		success: function(rsp, result, xhr){
-			var main = $('main');
-			
 			var matches = url.match(/\.([a-z0-9]+)$/i);
 			
 			var parser = matches && self.parser[matches[1]] ? self.parser[matches[1]] : self.parser['html'];
@@ -41,7 +44,6 @@ NAME.prototype.navigate = function(pathname){
 			parser.call(main, rsp);
 		},
 		error : function(){
-			var main = $('main');
 			main.html('<h1>404 Not Found</h1>');
 		}
 	});
