@@ -21,7 +21,7 @@ http://tuchong.com/api/tag/get/
 ### 例子
 **请求**
 
-    GET http://tuchong.com/api/tag/get/?tag=myTag
+    GET http://tuchong.com/api/tag/get/?tag=%E4%B8%AD%E6%96%87
 
 **返回**
 ``` json
