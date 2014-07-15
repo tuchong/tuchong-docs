@@ -23,21 +23,23 @@ http://tuchong.com/api/post/create/
 - `postToWeibo` — (可选)。同步到新浪微博，1为是，0为否，默认为否。
 - `is_original` — (可选)。是否原创，1为是，0为否，默认为否。
 - `images` — ()。图片的关联数组，若图博类型为组图，则为必须，否则可选。
+    - `img_id` — (必须)。图片id。
+        - `title` — (可选)。要设置的图片标题。
+        - `description` — (可选)。要设置的图片描述。
 
 ### 例子
 **请求**
 
-    POST http://tuchong.com/api/favorite/create/
+    POST http://tuchong.com/api/post/create/
 **post数据**
 
-    post_id=6487300
+    site_id=443539&type=text&title=textTitle&tags=tag1%2Ctag2&images%5B7162222%5D%5Btitle%5D=imgTitle&images%5B7162222%5D%5Bdescription%5D=imgDescription
 
 **返回**
 ``` json
 {
-    "favoriteStatus":"favorite",
-    "favoriteCount":"1",
-    "message":"分享成功",
+    "message":"发帖成功",
+    "redirect":"http:\/\/tuchong.com\/443539\/t\/6609038\/",
     "result":"SUCCESS"
 }
 ```
