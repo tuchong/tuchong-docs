@@ -33,29 +33,62 @@ http://tuchong.com/api/reply/add/
 ``` json
 {
     "comment":{
-        "note_id":"3747976",
-        "post_id":"6609030",
-        "type":"comment",
-        "content":"myComment",
-        "created_at":"2014-07-15 11:34:38",
-        "delete":true,
-        "reply":false,
-        "author_id":"443539",
-        "anonymous":0,
-        "likes":0,
-        "liked":false,
-        "reply_to":null,
-        "author":{
-            "site_id":"443539",
-            "type":"user",
-            "name":"skyss",
-            "domain":"",
-            "url":"http:\/\/tuchong.com\/443539\/",
-            "icon":"http:\/\/s1.tuchong.net\/sites\/443\/443539\/logo_small.jpg?1",
-            "description":"handsome",
-            "followers":0
-        }
+        "note_id":"3748114",
+            "post_id":"6484977",
+            "type":"comment",
+            "content":"测试评论",
+            "created_at":"2014-07-15 13:02:59",
+            "delete":true,
+            "reply":false,
+            "author_id":0,
+            "anonymous":1,
+            "likes":0,
+            "reply_to_array":[
+                "408653",
+            "308962"
+                ],
+            "liked":false,
+            "image":{
+                "img_id":7170669,
+                "user_id":308962,
+                "title":"DSC04535 - ",
+                "excerpt":"",
+                "width":2000,
+                "height":1333
+            },
+            "reply_to":[
+            {
+                "site_id":"408653",
+                "type":"user",
+                "name":"LAMHOMEPHONE",
+                "domain":"",
+                "url":"http:\/\/tuchong.com\/408653\/",
+                "icon":"http:\/\/test-static.tuchong.com\/style\/default\/images\/noavatar_small.gif",
+                "description":"",
+                "followers":0
+            },
+            {
+                "site_id":"308962",
+                "type":"user",
+                "name":"Rusamuk",
+                "domain":"",
+                "url":"http:\/\/tuchong.com\/308962\/",
+                "icon":"http:\/\/s1.tuchong.net\/sites\/308\/308962\/logo_small.jpg?4",
+                "description":"Life is elsewhere, for I just came back from there.",
+                "followers":2416
+            }
+        ],
+            "author":{
+                "site_id":0,
+                "type":"user",
+                "name":"匿名影友",
+                "domain":null,
+                "url":"http:\/\/tuchong.com\/0\/",
+                "icon":"http:\/\/test-static.tuchong.com\/style\/default\/images\/noavatar_small.gif",
+                "description":"",
+                "followers":0
+            }
     },
-    "result":"SUCCESS"
+        "result":"SUCCESS"
 }
 ```
