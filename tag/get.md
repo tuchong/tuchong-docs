@@ -23,31 +23,31 @@ http://tuchong.com/api/tag/get/
 
     GET http://tuchong.com/api/tag/get/?tag=%E4%B8%AD%E6%96%87
 
-**返回**
+**返回**
 ``` json
 {
     "postList":[
         {
-        "post_id":"6480440",
+        "post_id":"6480435",
         "author_id":"443012",
         "site_id":"443012",
         "type":"text",
         "original_post_id":null,
-        "title":"article for event",
-        "content":"<p> aaaaaaaaaaaaaaa f     e<br><\/p>",
+        "title":"zh",
+        "content":"tag for zh<br>",
         "content_old":null,
-        "created":"2014-07-09 11:56:37",
-        "updated":"2014-07-09 11:56:37",
-        "published_at":"2014-07-09 11:56:37",
+        "created":"2014-07-08 11:51:07",
+        "updated":"2014-07-08 11:51:07",
+        "published_at":"2014-07-08 11:51:07",
         "broadcasted_at":null,
-        "replied_at":"2014-07-09 11:56:37",
+        "replied_at":"2014-07-08 11:51:07",
         "qualified":"1",
         "editor_id":"0",
         "deleted_by":"0",
         "image_count":"0",
         "images":null,
-        "tags":"394902",
-        "events":"394911",
+        "tags":"394906",
+        "events":"",
         "mentions":"",
         "is_original":"1",
         "cc":"by,nc,sa",
