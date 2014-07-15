@@ -27,7 +27,7 @@ http://tuchong.com/api/reply/add/
     POST http://tuchong.com/api/reply/add/
 **post数据**
 
-    post_id=6609030&content=myComment
+    post_id=6484977&content=%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA&image_id=7170669&anonymous=on&replyto%5B%5D=408653&replyto%5B%5D=308962
 
 **返回**
 ``` json
