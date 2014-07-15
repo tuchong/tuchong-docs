@@ -23,9 +23,8 @@ http://tuchong.com/api/post/create/
 - `postToWeibo` — (可选)。同步到新浪微博，1为是，0为否，默认为否。
 - `is_original` — (可选)。是否原创，1为是，0为否，默认为否。
 - `images` — (可选)。图片的关联数组，若图博类型为组图，则为必须，否则可选。
-    - `img_id` — (必须)。图片id。
-        - `title` — (可选)。要设置的图片标题。
-        - `description` — (可选)。要设置的图片描述。
+- `images[图片id][title]` — (可选)。要设置的图片标题。
+- `images[图片id][description]` — (可选)。要设置的图片描述。
 
 ### 例子
 **请求**
