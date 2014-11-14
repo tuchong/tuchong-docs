@@ -19,7 +19,7 @@
   * [取消关注站点](#!site/unfollow.md)
 
 ### 标签
-  * [获取标签](#!tag/get.md)
+  * [获取标签下的图博](#!tag/get.md)
   * [获取标签分类](#!tag/categories.md)
 
 ### 活动
